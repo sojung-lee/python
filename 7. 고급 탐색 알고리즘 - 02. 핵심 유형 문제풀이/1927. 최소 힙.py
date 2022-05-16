@@ -9,7 +9,9 @@ for _ in range(n):
         if heap:
             result.append(heapq.heappop(heap))
         else:
-            heapq.heappush(heap, data)
+            result.append(0)
+    else:
+        heapq.heappush(heap, data)
 
 for data in result:
     print(data)
