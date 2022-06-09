@@ -1,8 +1,6 @@
 import sys
-sys.setrecursionlimit(10000)
+sys.setrecursionlimit(100000)
 
-T = int(input())
-B, ck = [], []
 
 def dfs(x, y):
     visited[x][y] = True
