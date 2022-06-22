@@ -16,4 +16,4 @@ distances.sort(reverse = True)
 
 for i in range(k - 1):
     distances[i] = 0
-print(sum(ditances))
+print(sum(distances))
